@@ -23,14 +23,19 @@ To run the simulation, follow these steps:
 
 1. Install Python (version 3.7 or higher) on your machine.
 2. Clone this repository to your local machine or download the code as a ZIP file.
-3. Open a terminal or command prompt and navigate to the directory containing the downloaded code.
-4. Install the required dependencies by running the following command:
-
-`pip install -r requirements.txt`
-
+```php
+git clone https://github.com/willhardison/Cell-Migration-Simulation.git
+```
+4. Open a terminal or command prompt and navigate to the directory containing the downloaded code.
+5. Install the required dependencies by running the following command:
+```php
+pip install -r requirements.txt
+```
 5. Run the simulation by executing the following command:
 
-```python manager.py```
+```php
+python manager.py
+```
 
 The simulation will start, and you will be able to observe the movement of cells in the graphical window.
 
