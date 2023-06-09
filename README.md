@@ -17,26 +17,30 @@ The simulation is implemented using three Python scripts: grid.py, manager.py, a
 - `manager.py`: Handles the simulation process and visualization using Pygame.
 - `cell.py`: Defines the classes for Compass Cells and Split Cells, including functions for movement and interaction with the grid.
 - `analysis.py`: Performs data analysis on the simulation results to measure the efficiency of each cell migration model.
+
+## Running the Simulation
 To run the simulation, follow these steps:
 
-Install Python (version 3.7 or higher) on your machine.
-Clone this repository to your local machine or download the code as a ZIP file.
-Open a terminal or command prompt and navigate to the directory containing the downloaded code.
-Install the required dependencies by running the following command:
-Copy code
-pip install -r requirements.txt
-Run the simulation by executing the following command:
-Copy code
-python manager.py
+1. Install Python (version 3.7 or higher) on your machine.
+2. Clone this repository to your local machine or download the code as a ZIP file.
+3. Open a terminal or command prompt and navigate to the directory containing the downloaded code.
+4. Install the required dependencies by running the following command:
+
+`pip install -r requirements.txt`
+
+5. Run the simulation by executing the following command:
+
+```python manager.py```
+
 The simulation will start, and you will be able to observe the movement of cells in the graphical window.
 
-Results and Analysis
+## Results and Analysis
 The simulation generates data on cell movement and completion time in different gradient conditions. The analysis.py script can be used to analyze the simulation results and calculate metrics such as average completion time and efficiency for each cell type. The script also provides functionality to compare different directional weights for the Split Cells.
 
-Conclusion
+## Conclusion
 This simulation-based study compares the Compass model and the Split model for cell migration in varying chemoattractant gradients. The results support the hypothesis that Split Cells perform better than Compass Cells in gradients with high variance. However, it is important to note that this model simplifies complex processes and further research is needed to fully understand the mechanisms of pseudopod formation and chemotaxis. The code and data provided in this repository can serve as a basis for future studies and exploration of other hypotheses in the field of cell migration.
 
-References
-Andrew + Insall 2007
-Neilson et al
-Manifacier et al 2020
+## References
+- `Andrew + Insall 2007`
+- `Neilson et al`
+- `Manifacier et al 2020`
